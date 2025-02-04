@@ -8,12 +8,14 @@ export default async function Contact() {
   const content = JSON.parse(jsonData);
 
   return (
-    <div>
-      <h1>{content.title}</h1>
-      <p>{content.description}</p>
+    <div className="max-w-2xl mx-auto p-6 bg-gray-50 text-gray-800 rounded-lg shadow-md">
+      <h1 className="text-2xl font-bold mb-4">{content.title}</h1>
+      <p className="mb-6">{content.description}</p>
       <h2>Contact Info</h2>
-      <p>Email: {content.contact.email}</p>
-      <p>Phone: {content.contact.phone}</p>
+      <p className="mb-6">Email: {content.contact.email}</p>
+      <p className="mb-6">Phone: {content.contact.phone}</p>
+
+      <p className="mb-6"><a href="/">back</a></p>
     </div>
   );
 }
