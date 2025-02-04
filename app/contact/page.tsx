@@ -15,7 +15,9 @@ export default async function Contact() {
       <p className="mb-6">Email: {content.contact.email}</p>
       <p className="mb-6">Phone: {content.contact.phone}</p>
 
-      <p className="mb-6"><a href="/">back</a></p>
+      <p className="mb-6">
+        <Link href="/">back</Link>
+      </p>
     </div>
   );
 }
