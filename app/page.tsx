@@ -6,7 +6,7 @@ export default function Home() {
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
         <Image
           className="dark:inverted"
-          src="/next.svg"
+          src="/globe.svg"
           alt="Next.js logo"
           width={360}
           height={76}
