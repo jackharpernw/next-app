@@ -1,0 +1,8 @@
+{
+    "title": "Dynamic Content from JSON/database",
+    "description": "This content is loaded from a JSON file.",
+    "contact": {
+      "email": "contact@example.com",
+      "phone": "+44 1234 567890"
+    }
+  }
