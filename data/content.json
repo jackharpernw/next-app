@@ -1,6 +1,6 @@
 {
-    "title": "Dynamic Content from JSON/database",
-    "description": "This content is loaded from a JSON file.",
+    "title": "Dynamic Contact information from JSON/database",
+    "description": "This content is loaded from a JSON file but the app could be pointed to any external data source",
     "contact": {
       "email": "contact@example.com",
       "phone": "+44 1234 567890"
