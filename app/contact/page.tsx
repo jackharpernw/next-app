@@ -1,5 +1,6 @@
 import fs from "fs";
 import path from "path";
+import Link from "next/link";
 
 export default async function Contact() {
   // Load JSON file dynamically
