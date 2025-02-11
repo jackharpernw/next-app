@@ -8,7 +8,7 @@ export default function Home() {
           className="dark:inverted"
           src="/next.svg"
           alt="Next.js logo"
-          width={600}
+          width={400}
           height={76}
           priority
         />
