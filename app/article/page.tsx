@@ -35,7 +35,7 @@ export default async function Article() {
   if (!article) {
     return (
       <div className="text-center p-6 text-red-500">
-        <h1 className="text-xl font-bold">Error Loading Article</h1>
+        <h2 className="text-xl font-bold">Error Loading Article</h2>
         <p>There was an issue fetching the article. Please try again later.</p>
       </div>
     );
